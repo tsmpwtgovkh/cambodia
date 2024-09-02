@@ -1,0 +1,192 @@
+
+h1 {
+  color: #333;
+    font-size: 2em;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+h2 {
+    color: rgb(33, 30, 30);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3{
+    font-size: 4em;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: 1.1em;
+      line-height: 1.6;
+      color: #333;
+      margin-bottom: 20px;
+
+}
+footer {
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+#wrap_page{
+    width: 1080px;
+    margin: 0 auto;
+}
+#menu ul li{
+    display: inline;
+    margin-left: 10px;
+    padding-left: 50px;
+}
+#content_page{
+    width: 55%;
+}
+#left{
+    width: auto;
+}
+#logo{
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000000;;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+li{
+    float: left;
+}
+  
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+  /* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+.active{
+    background-color: #09bd93;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+    background-color: white;
+  }
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Overwrite default styles of hr */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for the submit button */
+  .registerbtn {
+    background-color: #0c7f40;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+  }
+  
+  /* Add a blue text color to links */
+  a {
+    color: dodgerblue;
+  }
+  
+  /* Set a grey background color and center the text of the "sign in" section */
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+  #button{
+    padding: 0.5rem 2rem;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  body {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+/* Button Styles */
+
+.blue {
+    background-color: #3daaf3;
+    color: #fff;
+}
+
+.green {
+    background-color: #3bda7d;
+    color: #fff;
+}
+
+.warnning {
+    background-color: #f08f3b;
+    color: #fff;
+}
+
+.red {
+    background-color: #e44331;
+    color: #fff;
+}
+        /* Hover Styles */
+        button:hover {
+          background-color: #616161;
+}
+
